@@ -4,6 +4,19 @@ $tamaño-fuente:12px;
 $fondo: #eef0e0be;
 $fuente: Verdana, Geneva, Tahoma, sans-serif;
 
+.titulo-principal{
+	color:rgb(5, 7, 6) ;
+	margin-top: 100px; 
+	background-color: rgba(95, 160, 127, 0.651);
+	width: auto;
+
+	
+}
+.titulo-secundario{
+	background-color: rgba(95, 160, 127, 0.651);
+	width: 60%;
+	font-size: large;
+}
 .container__header{
 	display: flex;
 	justify-content: space-between; 
@@ -18,15 +31,23 @@ $fuente: Verdana, Geneva, Tahoma, sans-serif;
 		
 }
 
+.navbar-light{
+	background-color: rgba(204, 223, 223, 0.336);
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
 .header__S{
-	background-image: url("../Media/header.png");
+	background-image: url("../Media/header3.png");
 	background-position: center;
+	box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
 	background-size: cover;
+	filter: brightness(0.9);
 	padding: 20px;
-	padding-bottom: 80px;
-	height: 800px;
+	padding-bottom: 40px;
 	text-align: justify;
-	height: auto;
+	height: 600px;
 	width: 100%;
 
 	.vh__50{

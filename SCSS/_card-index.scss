@@ -17,14 +17,14 @@ $color-fuente:rgb(97, 95, 95);
     
 }
 
-.card__index{
+.card-index{
     border-radius: radius;
     box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
 	transition-duration: .7s;
 	clip-path: polygon(50% 0, 100% 0, 100% 50%, 100% 100%, 50% 100%,  0 100%, 0 50%, 0 0);
 }
 
-.card-effect:hover .card__index{
+.card-effect:hover .card-index{
 	clip-path: polygon(50% 0, 50% 0, 100% 50%, 100% 50%, 50% 100%,  50% 100%, 0 50%, 0 50%);
 
 }
