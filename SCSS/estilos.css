@@ -31,6 +31,7 @@ body {
   border-bottom: 3px ridge grey;
   background-color: #eef0e0be;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
 }
 
 .container__header .header__text {
@@ -70,11 +71,6 @@ body {
 
 /*---INDEX--------*/
 /*---OPERACIÓN EXTEND--------*/
-.img-logo {
-  width: 1000px;
-  height: 1000px;
-}
-
 .card-index > imagenes {
   max-width: 1200px;
 }
