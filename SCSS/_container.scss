@@ -10,7 +10,7 @@ $color-fuente:rgb(97, 95, 95);
 /*---OPERACIÓN EXTEND--------*/
 
 .card-index{
-    @extend .card__index;
+    @extend .card-index;
     > imagenes{
       @extend .card-img-filter; 
       max-width: 1200px;
@@ -26,7 +26,16 @@ $color-fuente:rgb(97, 95, 95);
 }
 
 
-/*---participantes--------*/
+.agregado{
+    border-top: 20px dotted rgb(14, 51, 25);
+    margin-top: 20px;
+}
+/*logo footer*/
+.img-logo{
+	width: 100px;
+	height: 100px;
+}
+/*participantes*/
 .comments{
 	background-image: url("../Media/participantes.jpg");
 	background-position: center;
@@ -34,7 +43,6 @@ $color-fuente:rgb(97, 95, 95);
     box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
 	padding: 10px;
 	margin-top: 30px;
-	height: 600px;
 }
 
 .foto-participante1{
@@ -52,14 +60,13 @@ $color-fuente:rgb(97, 95, 95);
     background-color: rgba(197, 189, 189, 0.719);
 }
 
-/*---Quienes somos--------*/
+/*Quienes somos*/
 .quienessomos__text{
     font-family: $fuente;
     text-align: center;
     padding: 40px;
     margin:20px;
     line-height: 30px;
-
 
     .quienessomos__text1{
         color:rgb(4, 83, 40);
@@ -75,11 +82,13 @@ $color-fuente:rgb(97, 95, 95);
 }
 .vision-mision{
     display: flex;
-    color:$color-fuente;
+    color:rgb(97, 95, 95);
     font-size: 16px;
     padding: 40px;
-    max-width: 1400px;
-    justify-content: space-between;
+	justify-content: space-between; 
+    background-color:rgba(95, 160, 127, 0.651) ;
+
+  
 
     .item-texto{
         background: linear-gradient(to top, lightgrey , lightgreen);
@@ -88,7 +97,7 @@ $color-fuente:rgb(97, 95, 95);
  
 }
 
-/*---Servicios.--------*/
+/*Servicios*/
 .servicios__textos{
     font-family: $fuente;
     justify-content: center;
@@ -165,7 +174,7 @@ color:$color-fuente;
     margin-bottom: 10px;
    
 }
-/*-----Novedades--------*/
+/*Novedades*/
 #accordion{
     @include caracteristicas;
     padding-bottom: 10px;
@@ -180,8 +189,31 @@ color:$color-fuente;
     text-align: center;
 }
 
+#carouselExampleCaptions{
+	background-size: cover ;
+	filter: brightness(0.8);
+	position: center;
+	padding: 30px;
+	padding-top: 5px;
+	height: 10% ;
+
+}
+
+.menu{
+	display: flex;
+	justify-content: space-between; 
+
+}
 
 
+p{
+	font-family: $fuente;
+	color:$color-fuente;
+	font-size: 18px;
+	font-weight: bold;
+	width: 1000px;
+	margin-left: 5px;
+}
 /*---Contacto--------*/
 
 .contacto__textos{
