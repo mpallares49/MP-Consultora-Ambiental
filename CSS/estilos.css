@@ -46,7 +46,7 @@ html { /* etiqueta raíz */
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	width: 100%;
 	box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
-
+	
 }
 .header__text{
 	color:rgb(97, 95, 95);
@@ -54,11 +54,11 @@ html { /* etiqueta raíz */
 }
 
 .navbar-light{
-	background-color: rgba(204, 223, 223, 0.336);
+	background-color: rgba(194, 204, 197, 0.336);
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
-	font-size: 14px;
+	font-size: 12px;
 }
 .header__S{
 	background-image: url("../Media/header3.png");
@@ -202,19 +202,24 @@ html { /* etiqueta raíz */
 	background-image: url("../Media/participantes.jpg");
 	background-position: center;
 	background-size: cover ;
-    box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
 	padding: 10px;
 	margin-top: none;
 
 }
 
 .boton-participantes{
+	font-size: 12px;
+	color: rgb(53, 52, 52);
+	height: auto;
 	width: fit-content;
-	margin: 10px;
-	border-radius: 3px;
 	padding: 10px;
+	border-radius: 3px solid rgb(109, 107, 107);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	background-color: aquamarine;
+	transition: .4s all ease;
+}
+.boton-participantes:hover{
+	background-color: rgb(170, 206, 99);
+
 }
 
 .foto-participante1{
@@ -232,6 +237,12 @@ html { /* etiqueta raíz */
     font-weight: bold;
     background-color: rgba(197, 189, 189, 0.719);
 }
+.dropdown-item{
+	font-size: 12px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+
 
 /*Quienes somos*/
 .quienessomos__text{
