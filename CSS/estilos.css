@@ -58,6 +58,7 @@ html { /* etiqueta raíz */
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	font-size: 14px;
 }
 .header__S{
 	background-image: url("../Media/header3.png");
