@@ -17,6 +17,7 @@ html { /* etiqueta raíz */
 
 
 }
+
 .titulo-logo{
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 200px;
@@ -85,6 +86,18 @@ html { /* etiqueta raíz */
 	width: 100%;
 
 }
+.header__C{
+	background-image: url("../Media/fondo-gris.jpg");
+	background-position: center;
+	box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
+	filter: brightness(0.9);
+	background-size: cover;
+	padding: 20px;
+	padding-bottom: 40px;
+	height: auto;
+	text-align: justify;
+	width: 100%;
+}
 
 .vh__50{
 	height: 50vmin;
@@ -108,8 +121,9 @@ html { /* etiqueta raíz */
 
 }
 .agregado{
-    border-top: 20px dotted rgb(14, 51, 25);
+	border-top: 10px double rgb(156, 154, 154);
     margin-top: 20px;
+	width:100%;
 }
 
 
@@ -142,6 +156,39 @@ html { /* etiqueta raíz */
 }
 .card-effect:hover .card-img-overly{
 	transform: scale(0.9);
+}
+
+.titulo_tarjeta{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgb(247, 242, 247);
+	text-align: center;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	height: auto;
+	border-radius: 50px;
+	transition: .7s all ease;
+}
+.titulo_tarjeta:hover{
+	background-color:  rgba(151, 172, 151, 0.267);
+}
+
+.texto-tarjeta{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 18px;
+	color: rgb(13, 73, 13);
+	font-weight: bold;
+	border-bottom: 6px solid yellowgreen;
+	line-height: 30px;
+	margin-right: 2px;
+}
+.texto-tarjeta1{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+	color: rgb(58, 59, 55);
+	margin-top: 2px;
+	line-height: 35px;
 }
 
 /*logo footer*/
@@ -342,17 +389,8 @@ p{
 /*SERVICIOS*/
 
 /*CONTACTO*/
-#tabla-contacto{
-	font-family: verdana;
-	font-size: 14px;
-	background: linear-gradient(to top, lightgrey , lightgreen);
-	width: 400px;
-	padding: 20px;
-	margin-top: 25px;
-	margin-bottom: 10px;
-	margin-left: 10px;
-	line-height:30px;
-}
+
+
 .contacto__textos{
     color:rgb(4, 83, 40);
     font-weight: bold;
@@ -364,13 +402,80 @@ p{
 }
    
 .contacto__texto1{
-    color:slategrey;
+    color:rgb(43, 43, 46);
     font-size: 18px;
     text-align: center;
-    background-color: lightgreen;
+ 
 
 }
-	
+
+.container .formulario .form-header .form-titulo{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	color:rgba(5, 97, 5, 0.897);
+	text-align: center;
+	padding: 14px 0;
+	font-weight: bold;
+
+}
+.container .formulario .form-header .form-titulo span{
+	color:rgba(5, 97, 5, 0.767);
+}
+.container .formulario{
+	width: 60%;
+	max-width: 650px;
+	margin: auto;
+	background-color: rgb(247, 242, 247);
+	padding: 5px 35px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+
+.container .formulario .form-label{
+	display: block;
+	color: rgb(33, 36, 33);
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	position: relative;
+}
+
+.container .formulario .form-input, .form-textarea{
+	background-color: rgba(209, 196, 196, 0.521);
+	font-size: 14px;
+	color: rgb(8, 8, 8);
+	border:none;
+	outline:none;
+	border-bottom: 4px solid yellowgreen;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 2px;
+
+}
+.container .formulario .form-textarea{
+	resize: vertical;
+	height: 70px;
+	max-height: 150px;
+	min-height: 50px;
+
+}
+.container .formulario .btn-submit{
+	width: 100%;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	outline: none;
+	border: none;
+	background-color: yellowgreen;
+	color: white;
+	padding: 10px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+.container .formulario .btn-submit:hover{
+	background-color: rgb(0, 128, 32);
+}
 /*Footer*/
 .container__footer{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
