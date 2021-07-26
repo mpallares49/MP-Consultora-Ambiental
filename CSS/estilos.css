@@ -17,12 +17,19 @@ html { /* etiqueta raíz */
 
 
 }
-
+.titulo-logo{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 200px;
+	width: 55%;
+}
 .titulo-principal{
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-variant: small-caps;
 	color:rgb(5, 7, 6) ;
 	margin-top: 100px; 
 	background-color: rgba(95, 160, 127, 0.651);
-	width: auto;
+	width: 70%;
+	max-width: 100%;
 
 	
 }
@@ -35,10 +42,9 @@ html { /* etiqueta raíz */
 .container__header{
 	display: flex;
 	justify-content: space-between; 
-	border-bottom: 3px ridge grey;
-	background-color:#eef0e0be;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	width: 100%;
+	box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
 
 }
 .header__text{
@@ -66,6 +72,20 @@ html { /* etiqueta raíz */
 
 }
 
+.header__R{
+	background-image: url("../Media/header3.png");
+	background-position: center;
+	box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
+	filter: brightness(0.9);
+	background-size: cover;
+	padding: 20px;
+	padding-bottom: 40px;
+	height: auto;
+	text-align: justify;
+	width: 100%;
+
+}
+
 .vh__50{
 	height: 50vmin;
 }
@@ -87,6 +107,12 @@ html { /* etiqueta raíz */
 
 
 }
+.agregado{
+    border-top: 20px dotted rgb(14, 51, 25);
+    margin-top: 20px;
+}
+
+
 /*Animaciones index*/
 
 .texto__index{
@@ -130,8 +156,17 @@ html { /* etiqueta raíz */
 	background-size: cover ;
     box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 3);
 	padding: 10px;
-	margin-top: 30px;
+	margin-top: none;
 
+}
+
+.boton-participantes{
+	width: fit-content;
+	margin: 10px;
+	border-radius: 3px;
+	padding: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: aquamarine;
 }
 
 .foto-participante1{
@@ -170,12 +205,13 @@ html { /* etiqueta raíz */
 }
 
 .vision-mision{
-   display: flex;
+    background-image: url("../Media/fondo-blanco.jpg");
+	display: flex;
     color:rgb(97, 95, 95);
-    font-size: 16px;
+    font-size: 18px;
     padding: 40px;
 	justify-content: space-between; 
-    background-color:rgba(95, 160, 127, 0.651) ;
+   
 }
 
 .item-texto{
@@ -341,7 +377,8 @@ p{
 	font-size: 14px;
 	background: linear-gradient(to bottom, #d3d3d3, #d3d3d3, white , white) ;
 	width: 100%;
-	border-top: 3px ridge grey;
+	border-top: 3px solid #d3d3d3;
+	box-shadow: 1px 1px 12px 0px rgba(0, 0, 0, 2);
 }
 
 .footer__textos{

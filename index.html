@@ -3,9 +3,9 @@
 <html lang="en">
 
 <head>
-	<title>MP Ambiental-Servicios Ambientales Empresariales</title>
+	<title>MAMPE- Servicios Ambientales Empresariales</title>
 	<script src="https://kit.fontawesome.com/3f7772028e.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet"  href="SCSS/estilos.css">
+	<link rel="stylesheet"  href="CSS/estilos.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">	
@@ -17,51 +17,48 @@
 
 <body>
 <header>
-		<div class="container-fluid">
-			<div class= "container__header">
-				<div class="header__text">Av.Moreno 1200 Edificio R50. Parque centro. San Nicolás. info@mpambiental.com</div>
-				<div> <i class="fas fa-search"></i>
-				<i class="fas fa-user"></i>
-				</div>			
-			</div>
+	<div class= "container__header">
+		<div class="header__text ml-2">Av.Moreno 1200. Parque centro. San Nicolás. info@mpambiental.com</div>
+		<div class="mr-2 text-dark"> 
+		<a href="https://www.google.com/" class= "text-dark"><i class="fas fa-search"></i> </a>
+		<a href="https://drive.google.com/file/d/1i8QvP3dIn9p6c6PsNj3zz62AzS3XT6YY/view?usp=sharing"><i class="fas fa-user" class= "text-dark"></i></a>
+		</div>			
+	</div>
+		
+		<!---Navegación--->
+		<div class="justify-content-between">
+			<nav class="navbar navbar-light navbar-toggleable-lg navbar-expand-lg text-success text-uppercase mr-5 mt-0 ">				
+		<!---Logo--->
+				<a class="titulo-logo navbar-brand text-success font-weight-bold" href="index.html" ><i class="fas fa-seedling" class="pb-3"></i>
+				MAMPE Ambiental
+				</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<!---Menú--->
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+					<div class="navbar-nav ml-5 ">
+						<a href="index.html" class="nav-item nav-link active  font-weight-bold pr-3">HOME</a>
+						<a href="Secciones/quienessomos.html" class="nav-item nav-link font-weight-bold pr-3"> ¿QUIÉNES SOMOS? </a>
+						<a href="Secciones/servicios.html"class="nav-item nav-link font-weight-bold pr-3"> SERVICIOS </a>
+						<a href="Secciones/novedades.html" class="nav-item nav-link font-weight-bold pr-3"> NOVEDADES </a>
+						<a href="Secciones/contacto.html" class="nav-item nav-link font-weight-bold pr-3"> CONTACTO </a>
+					</div>
+				</div>	
+			</nav>
 		</div>
-
 		<div class= "header__S">		 
 			<div class="container">
-				<!---Navegación--->
-				<nav class=" navbar navbar-light navbar-toggleable-lg navbar-expand-lg text-white text-uppercase mr-5 mt-0 ">				
-					<!---Logo--->
-					<a class="navbar-brand text-white" href="index.html" ><i class="fas fa-seedling" class="pb-3"></i>
-					MP Ambiental
-					</a>
-					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-					  </button>
-					<!---Menú--->
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-						<div class="navbar-nav ml-5 ">
-							<a href="index.html" class="nav-item nav-link active text-white font-weight-bold pr-3">HOME</a>
-							<a href="Secciones/quienessomos.html" class="nav-item nav-link text-white font-weight-bold pr-3"> ¿QUIÉNES SOMOS? </a>
-							<a href="Secciones/servicios.html"class="nav-item nav-link text-white font-weight-bold pr-3"> SERVICIOS </a>
-							<a href="Secciones/novedades.html" class="nav-item nav-link text-white font-weight-bold pr-3"> NOVEDADES </a>
-							<a href="Secciones/contacto.html" class="nav-item nav-link text-white font-weight-bold pr-3"> CONTACTO </a>
-						</div>
-					</div>	
-				</nav>
-			<!---Descripción--->
-				<div class="container">
-					<div class="row">
-						<div class="etiqueta col-sm-6 text-black align-items-justify text-center mt-5">
-							<!---Título--->
-							<h1 class=" titulo-principal text-center text-capitalize font-italic font-weight-bold  mb-2">
-							MP Ambiental-</h1>
-							<h5 class="titulo-secundario text-white  font-weight-bold text-uppercase text-center">Consultora ambiental</h5> 						
-							<!---Texto descriptivo--->
-							<h6 class="titulo-secundario text-white text-capitalize ">Somos profesionales en gestión ambiental</h6>
-
-							<!---Botón--->
-							<a href="Secciones/contacto.html" class="text-reset btn btn-warning mb-5"> Contactanos </a>
-						</div>
+				<div class="row justify-content-center  align-items-center">
+					<div class="etiqueta col-sm-6 text-black align-items-justify mt-5">
+						<!---Título--->
+						<h1 class="titulo-principal  text-capitalize font-italic font-weight-bold mb-2">
+						MAMPE Ambiental-</h1>
+						<h5 class="titulo-secundario text-white  font-weight-bold text-uppercase text-center">Consultora ambiental</h5> 						
+						<!---Texto descriptivo--->
+						<h6 class="titulo-secundario text-white text-capitalize text-center">Somos profesionales en gestión ambiental</h6>
+						<!---Botón--->
+						<a href="Secciones/contacto.html" class="text-reset btn btn-warning mb-5"> Contactanos </a>
 					</div>
 				</div>
 			</div>
@@ -87,13 +84,13 @@
 				<!---Foto #1--->
 				<article class="col-sm-6 card-effect card-img-filter ">
 					<div class="card-index">
-							<img src="Media/consultora.jpg" class="card-img" alt="Pensamiento integral"/>												
+						<img src="Media/consultora.jpg" class="card-img" alt="Pensamiento integral"/>												
 						<div class="card-img-overlay text-dark d-flex flex-column justify-content-center text-center">
-							<h5 class=" texto__index ">Pensamiento integral
-							y la eficiencia como foco del desarrollo</h5>									
+						<h5 class=" texto__index ">Pensamiento integral
+						y la eficiencia como foco del desarrollo</h5>									
 						</div>						
 					</div>
-					<a href="Secciones/servicios.html" class="text-reset btn btn-warning mt-2">Read more</a>			
+					<a href="Secciones/servicios.html" class="text-reset btn btn-light mt-2">Ir a...</a>			
 				</article>
 
 				<!---Foto #2--->
@@ -104,8 +101,9 @@
 							<h5 class="texto__index ">Sustentabilidad: Integración económica, social y ambiental</h5>							
 						</div>
 					</div>							
-					<a href="Secciones/servicios.html" class="text-reset btn btn-warning mt-2">Read more</a>	
-				</article>			
+					<a href="Secciones/servicios.html" class="text-reset btn btn-light mt-2">Ir a...</a>	
+				</article>	
+				
 			</div>
 		</section>
 		
@@ -131,17 +129,16 @@
 					Mariana Ailén Pallares
 					<div class="participante__texto1"> Ingeniera ambiental</div>
 				</footer>
-				<!--Dropdown Marianí--->		
-					<div class="dropdown pt-2">
-						<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-					  	Experiencia
-						</button>
-						<div class="dropdown-menu">
-						  	<a class="dropdown-item" href="Secciones/quienessomos.html">Educación</a>
-						  	<a class="dropdown-item" href="Secciones/servicios.html">Proyectos</a>
-						  	<a class="dropdown-item" href="/index.html">VOLVER</a>
-						</div>
+				<div class="dropdown pt-2">
+					<button type="button" class="boton-participantes btn btn-warning dropdown-toggle" data-toggle="dropdown">
+					  Nosotrxs
+					</button>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="Secciones/quienessomos.html">Profesión</a>
+						<a class="dropdown-item" href="Secciones/servicios.html">Servicios & Proyectos</a>
+						<a class="dropdown-item" href="/index.html">Quiero volver a Home</a>
 					</div>
+				</div>			
 			</div>
 
 			<div class="col-12 col-md-6 text-white text-center py-5 my-5">
@@ -155,31 +152,29 @@
 	
 					<!--Dropdown María--->		
 					<div class="dropdown pt-2">
-						<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
-						  Experiencia
+						<button type="button" class="boton-participantes btn btn-warning dropdown-toggle" data-toggle="dropdown">
+						  Nosotrxs
 						</button>
 						<div class="dropdown-menu">
-							<a class="dropdown-item" href="Secciones/quienessomos.html">Educación</a>
-							<a class="dropdown-item" href="Secciones/servicios.html">Proyectos</a>
-							<a class="dropdown-item" href="/index.html">HOME</a>
+							<a class="dropdown-item" href="Secciones/quienessomos.html">Profesión</a>
+							<a class="dropdown-item" href="Secciones/servicios.html">Servicios & Proyectos</a>
+							<a class="dropdown-item" href="/index.html">Quiero volver a Home</a>
 						</div>
 					</div>
 			</div>
 		</div>
 	</div>	
-</section>
-
-									
+</section>									
 	
 <!--Seccion contacto extra--->
 	<div class="container">
 		<h3 class="text-center mt-3">CONTACTO</h3> <br>
 		<div class=row>
 			<div class=" col-sm-12 d-flex justify-content-between center mb-5 mt-2 ml-5">
-				<i class="fas fa-phone"></i>
-				<i class="fab fa-whatsapp"></i>				
-				<i class="fas fa-envelope"></i>
-				<i class="fas fa-map-marker-alt"></i>	
+				<a href="Secciones/contacto.html" class="text-dark text-large"><i class="fas fa-phone"></i></a>
+				<a href="https://web.whatsapp.com/" class="text-dark text-large"><i class="fab fa-whatsapp"></i></a>				
+				<a href="https://web.whatsapp.com/" class="text-dark text-large"><i class="fas fa-envelope"></i></a>
+				<a href="Secciones/contacto.html" class="text-dark text-large"><i class="fas fa-map-marker-alt"></i></a>	
 			</div>	
 		</div>		
 	</div>
@@ -223,9 +218,9 @@
 			<h6 class="text-success text-capitalize font-italic font-weight-bold text-justify mb-5">
 			MP Ambiental</h6></a></li>	
 			<li class="footer__titulo font-weight-bold text-uppercase"> NUESTRAS REDES</li>
-			<li><i class="fab fa-twitter-square"></i> @mpambiental</li>
-			<li><i class="fab fa-facebook-square"></i> @mpambiental</li>
-			<li><i class="fab fa-linkedin"></i>/in/mpambiental</li>
+			<li><a href="https://twitter.com/" class="text-dark"><i class="fab fa-twitter-square"></i> @mpambiental</li></a>
+			<li><a href="https://www.facebook.com/" class="text-dark"><i class="fab fa-facebook-square"></i> @mpambiental</li></a>
+			<li><a href="https://www.linkedin.com/" class="text-dark"><i class="fab fa-linkedin"></i>/in/mpambiental</li></a>
 
 		</ul>
 		</div>
